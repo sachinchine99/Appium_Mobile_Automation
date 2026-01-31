@@ -18,7 +18,7 @@ This is a Test Automation framework for mobile applications using **Appium**, **
 
 1. Clone the repository
  cd Mobile_Automation
- git clone https://github.com/SachinChine99/Mobile_Appium_TestNG
+ git clone https://github.com/Sachinchine99/Mobile_Appium_TestNG
 
 2. Install dependencies and build the project
 mvn clean install -DskipTests
