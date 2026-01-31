@@ -1,0 +1,29 @@
+# Mobile_Appium_TestNG Automation Framework
+
+This is a Test Automation framework for mobile applications using **Appium**, **TestNG**, and **Maven**.
+
+---
+
+## Prerequisites
+
+- Java: JDK 17 or higher
+- Maven: 3.9.11 (or latest)
+- Appium Server: Installed and running
+- TestNG: Configured in the project
+- Mobile device or emulator configured for testing
+
+---
+
+## How to Set Up
+
+1. Clone the repository
+ cd Mobile_Automation
+ git clone https://github.com/SachinChine99/Mobile_Appium_TestNG
+
+2. Install dependencies and build the project
+mvn clean install -DskipTests
+
+3. Running Tests
+mvn clean install -DsuiteXmlFile=TestNG/testNG.xml
+
+

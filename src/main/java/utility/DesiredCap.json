@@ -1,0 +1,42 @@
+{
+  "emulator": {
+    "deviceName": "emulator-5554",
+    "platformVersion": "16",
+    "platformName": "Android",
+    "appPackage": "com.kolonizer.sales",
+    "appActivity": "com.kolonizer.sales.MainActivity",
+    "noReset": false,
+    "fullReset": false,
+    "setAutoGrantPermissions": false,
+    "setNewCommandTimeout": 120
+  },
+  "simulator": {
+    "deviceName": "iPhone 16 Pro",
+    "platformVersion": "18.6",
+    "platformName": "iOS",
+    "automationName": "XCUITest",
+    "UDID": "5B2F69A1-DDE3-4E47-B3C5-800000E42031",
+    "appPath": "/src/main/resources/App/TestApp.app",
+    "noReset": false,
+    "fullReset": false,
+    "setAutoGrantPermissions": false,
+    "setNewCommandTimeout": 120,
+    "newCommandTimeout": 120,
+    "ClearSystemFiles": true,
+    "UseNewWDA": true,
+    "WdaLaunchTimeout": 60,
+    "autoAcceptAlerts": true
+  },
+  "realAndroidDevice": {
+    "platformName": "Android",
+    "appPackage": "com.kolonizer.sales",
+    "appActivity": "com.kolonizer.sales.MainActivity",
+    "udid": "RZ8M31ABCDE",
+    "noReset": true,
+    "fullReset": false,
+    "setAutoGrantPermissions": true,
+    "newCommandTimeout": 300,
+    "deviceName": "RMX3921",
+    "platformVersion": "15"
+  }
+}

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Tests">
+
+    <test name="Test 1">
+        <classes>
+            <class name="test.Verify_Login_Scenarios"/>
+        </classes>
+    </test>
+
+</suite>
