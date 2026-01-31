@@ -26,6 +26,7 @@ import org.testng.ITestResult;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+
 public class Driver {
     public static UiAutomator2Options uiAutomator2Options;
     public static XCUITestOptions xcuiTestOptions;

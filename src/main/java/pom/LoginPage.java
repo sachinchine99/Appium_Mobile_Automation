@@ -36,7 +36,7 @@ public class LoginPage extends UIActions {
         clickIfDisplayed(closePopUp_iconButton,2,"Close pop up icon button missing");
     }
     public void loginWithoutReset() throws InterruptedException {
-        sendKeys(email_button,"nikhil@kolonizer.com","email tab missing");
+        sendKeys(email_button,"sachinkolonizer@gmail.com","email tab missing");
         sendKeys(pass_button,"123","Password tab missing");
         click(login_button,"Login button missing");
 
