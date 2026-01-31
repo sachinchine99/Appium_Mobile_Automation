@@ -296,7 +296,7 @@ public class Driver {
     public static ExtentTest createExtentTestLog(ITestResult result) {
         test = report.createTest(result.getMethod().getMethodName())
                 .assignCategory(result.getTestClass().getName())
-                .assignAuthor("Pratik")
+                .assignAuthor("Sachin")
                 .assignDevice(System.getProperty("os.name"));
         return test;
     }

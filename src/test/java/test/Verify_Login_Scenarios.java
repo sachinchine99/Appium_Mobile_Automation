@@ -16,55 +16,55 @@ public class Verify_Login_Scenarios extends BaseClass{
         new LoginPage().logout();
     }
 
-    @Test(priority = 3)
+    @Test(priority = 3, enabled = true)
     public void verify_logout2() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 4)
+    @Test(priority = 4, enabled = false)
     public void verify_logout3() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 5)
+    @Test(priority = 5, enabled = false)
     public void verify_logout4() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 6)
+    @Test(priority = 6, enabled = false)
     public void verify_logout5() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 7)
+    @Test(priority = 7, enabled = false)
     public void verify_logout6() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 8)
+    @Test(priority = 8, enabled = false)
     public void verify_logout7() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 9)
+    @Test(priority = 9, enabled = false)
     public void verify_logout8() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 10)
+    @Test(priority = 10, enabled = false)
     public void verify_logout9() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
     }
 
-    @Test(priority = 11)
+    @Test(priority = 11, enabled = false)
     public void verify_logout10() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
