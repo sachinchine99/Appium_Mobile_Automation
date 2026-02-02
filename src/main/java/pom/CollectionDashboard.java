@@ -83,7 +83,7 @@ public class CollectionDashboard extends UIActions {
         System.out.println("Extracted Customer Names: " + uniqueCustomerNames);
         System.out.println("Sorted Customer Names: " + sortedCustomerNames);
 
-        // Assertion to check if dropdown values are sorted
+        // Assertion to check if dropdown values are sorted or not
         Assert.assertEquals(uniqueCustomerNames, sortedCustomerNames, "Customer names are not in alphabetical order");
     }
 
