@@ -27,7 +27,7 @@ public class UIActions extends Driver {
                 System.out.println(":-------------------------------------------------------------------------------------------------------:");
                 Thread.sleep(3000); // Wait before retrying
             } catch (TimeoutException e) {
-                Assert.fail(errorMessage + " | TimeoutException: " + e.getMessage());
+                Assert.fail(errorMessage + " | TimeoutException : " + e.getMessage());
                 return;
             }
 
