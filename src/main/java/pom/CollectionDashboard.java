@@ -72,7 +72,7 @@ public class CollectionDashboard extends UIActions {
                     break; // Exit loop if no new elements appear
                 }
             }
-            System.out.println("===============================================================================");
+            System.out.println("================================================================================");
         }
 
         // Sorting the extracted names for validation

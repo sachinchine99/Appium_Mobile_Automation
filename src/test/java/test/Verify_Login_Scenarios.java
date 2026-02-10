@@ -10,7 +10,7 @@ public class Verify_Login_Scenarios extends BaseClass{
 //    @Test(priority = 1)
 //    public void verify_login() throws InterruptedException {
 //    }
-    @Test(priority = 2)
+    @Test(priority = 2, enabled = true)
     public void verify_logout1() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
