@@ -1,7 +1,7 @@
 {
   "emulator": {
-    "deviceName": "",
-    "platformVersion": "",
+    "deviceName": "emulator-5554",
+    "platformVersion": "16",
     "platformName": "Android",
     "appPackage": "com.kolonizer.sales",
     "appActivity": "com.kolonizer.sales.MainActivity",

@@ -47,6 +47,7 @@ public class LoginPage extends UIActions {
         scrollByElement(hideEntriesMenuList,measurementMenuList);
         click(logoutProfileMenuList_button,"logout profile menu list icon button missing");
         click(confirmWarningPopUp_button,"Confirm warning pop up button missing");
+
     }
 
 

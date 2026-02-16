@@ -22,7 +22,7 @@ public class Verify_Login_Scenarios extends BaseClass{
         new LoginPage().logout();
     }
 
-    @Test(priority = 4, enabled = false)
+    @Test(priority = 4, enabled = true)
     public void verify_logout3() throws InterruptedException {
         new LoginPage().loginWithoutReset();
         new LoginPage().logout();
