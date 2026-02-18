@@ -68,5 +68,6 @@ public class BaseClass extends Utility {
     @AfterSuite
     public void tearDownExtentReport() {
         // Add any final report closing actions here if needed
+        //
     }
 }

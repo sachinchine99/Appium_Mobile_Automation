@@ -140,6 +140,6 @@ public class UIActions extends Driver {
         coordinate.put("X",x);
         coordinate.put("Y",y);
         return coordinate;
-    }
 
+    }
 }

@@ -492,7 +492,9 @@ public class Driver {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
         return version;
+
     }
 
 

@@ -49,4 +49,5 @@ public class LoginPage extends UIActions {
         click(confirmWarningPopUp_button,"Confirm warning pop up button missing");
 
     }
+
 }
