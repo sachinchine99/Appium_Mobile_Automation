@@ -85,7 +85,6 @@ public class CollectionDashboard extends UIActions {
 
         // Assertion to check if dropdown values are sorted or not
         Assert.assertEquals(uniqueCustomerNames, sortedCustomerNames, "Customer names are not in alphabetical order");
-
     }
 
 

@@ -10,7 +10,8 @@
     "setAutoGrantPermissions": false,
     "setNewCommandTimeout": 120
   },
-  "simulator": {
+  "simulator":
+  {
     "deviceName": "iPhone 16 Pro",
     "platformVersion": "18.6",
     "platformName": "iOS",

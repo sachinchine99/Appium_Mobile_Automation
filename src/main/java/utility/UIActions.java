@@ -142,5 +142,4 @@ public class UIActions extends Driver {
         return coordinate;
     }
 
-
 }
